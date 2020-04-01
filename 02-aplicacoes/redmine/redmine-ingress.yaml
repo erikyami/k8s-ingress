@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: ingress-redmine
+  annotations:
+    # use the shared ingress-nginx
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  rules:
+  - host: redmine.example.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: redmine-service
+          servicePort: 80
