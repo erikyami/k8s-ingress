@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: moodle-deployment
+  name: grafana-deployment
   labels:
-    app: moodle
+    app: grafana
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: moodle
+      app: grafana
   template:
     metadata:
       labels:
-        app: moodle
+        app: grafana
     spec:
       containers:
-      - name: moodle
-        image: nginx
+      - name: grafana
+        image: grafana/grafana
         ports:
-        - containerPort: 80
+        - containerPort: 3000

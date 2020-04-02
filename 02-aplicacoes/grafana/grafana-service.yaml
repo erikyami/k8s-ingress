@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: moodle-service
+  name: grafana-service
   labels:
-    name: moodle-service
+    name: grafana-service
 spec:
   selector:
-    app: moodle
+    app: grafana
   #type: NodePort
   ports:
     - name: http
       port: 80
-      targetPort: 80
+      targetPort: 3000

@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: wordpress
-        image: nginx
+        image: wordpress
         ports:
         - containerPort: 80

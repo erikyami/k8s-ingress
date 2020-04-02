@@ -1,16 +1,16 @@
 apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
-  name: ingress-moodle
+  name: ingress-grafana
   annotations:
     # use the shared ingress-nginx
     kubernetes.io/ingress.class: "nginx"
 spec:
   rules:
-  - host: moodle.example.com
+  - host: grafana.example.com
     http:
       paths:
       - path: /
         backend:
-          serviceName: moodle-service
-          servicePort: 80
+          serviceName: grafana-service
+          servicePort: 3000
