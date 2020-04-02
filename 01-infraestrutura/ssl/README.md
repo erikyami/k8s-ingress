@@ -36,5 +36,5 @@ kubectl create secret tls wildcard-tls-secret --key wildcard.example.com.key --c
 [kubeadmin@master ssl]$ kubectl get secrets 
 NAME                   TYPE                                  DATA   AGE
 default-token-qnvhf    kubernetes.io/service-account-token   3      45h
-wildcard.example.com   kubernetes.io/tls                     2      3m46s
+wildcard-tls-secret    kubernetes.io/tls                     2      3m46s
 ```
