@@ -6,6 +6,10 @@ metadata:
     # use the shared ingress-nginx
     kubernetes.io/ingress.class: "nginx"
 spec:
+  tls:
+  - hosts:
+    - redmine.example.com
+    secretName: wildcard-tls-secret
   rules:
   - host: redmine.example.com
     http:
