@@ -1,6 +1,8 @@
 # Criar certificado autoassinado para utilizar no Ingress
 
-Documentação: https://kubernetes.github.io/ingress-nginx/user-guide/tls/
+Documentação: 
+https://kubernetes.github.io/ingress-nginx/user-guide/tls/
+https://docs.nginx.com/nginx-ingress-controller/configuration/ingress-resources/basic-configuration/#
 
 
 ## Criando o certificado:
