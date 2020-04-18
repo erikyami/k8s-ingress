@@ -69,4 +69,6 @@ Realizar o seguinte comando nos nodes (workers) do Kubernetes:
 
 ```
 sudo yum -y install nfs-utils
+sudo systemctl enable nfs-utils
+sudo systemctl start nfs-utils
 ```
