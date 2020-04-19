@@ -17,3 +17,6 @@ Arquivos de configuração para a instalação do NGINX Ingress Controller no ku
 
 Criação de um certificado SSL autoassinado e criação de secret para utilizar comunicações seguras através do protocolo HTTPS
 
+### NFS
+
+O item 04-storage dentro de 01-infraestrutura é opcional, utilizado apenas pela aplicação gitlab que utiliza PersistentVolumes.
