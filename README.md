@@ -13,24 +13,22 @@ Pressume-se que seu cluster Kubernetes já esteja funcionando. O objetivo é adi
 
 Os diretórios estão enumerados por ordem de execução
 
-01-infraestrutura
-├── 01-metallb
-│   ├── 00-documentacao.txt
-│   ├── 01-namespace.yaml
-│   ├── 02-metallb.yaml
-│   ├── 03-metallb-config.yaml
-│   └── README.md
-├── 02-ingress-nginx
-│   ├── 00-documentacao.txt
-│   ├── 01-mandatory.yaml
-│   ├── 02-service-ingress.yaml
-│   └── README.md
-├── 03-ssl
-│   └── README.md
-├── 04-storage
-│   └── nfs.md
-└── README.md
-
+- 01-infraestrutura
+ - 01-metallb
+  - 00-documentacao.txt
+  - 01-namespace.yaml
+  - 02-metallb.yaml
+  - 03-metallb-config.yaml
+  - README.md
+ - 02-ingress-nginx
+  - 00-documentacao.txt
+  - 01-mandatory.yaml
+  - 02-service-ingress.yaml
+  - README.md
+ - 03-ssl
+  - README.md
+ - 04-storage
+  - nfs.md
 
 
 ## Documentação 
