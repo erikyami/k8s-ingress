@@ -11,6 +11,8 @@ Você pode escolher dentre vários vários Ingress Controllers, este projeto tra
 
 Pressume-se que seu cluster Kubernetes já esteja funcionando. O objetivo é adicionar a funcionalidade de um Ingress Controller no ambiente para permitir o tráfico HTTP/HTTPS para dentro do cluster.
 
+Os procedimentos para a instalação de cluster Kubernetes estão em: https://github.com/erikyami/k8s-centos7
+
 Os diretórios estão enumerados por ordem de execução
 
 - 01-infraestrutura
