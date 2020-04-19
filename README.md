@@ -6,6 +6,7 @@ Para o Ingress Resource funcionar é necessário ter um **Ingress Controller** r
 
 Você pode escolher dentre vários vários Ingress Controllers, este projeto trata da instalação do **NGINX Ingress Controller**
 
+![diagrama](images/diagrama-ingress.png)
 
 ## Instalação
 
