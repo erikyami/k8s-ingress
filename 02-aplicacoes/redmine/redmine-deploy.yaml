@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: redmine
-        image: redmine:4.1.0
+        image: redmine:5.0.5
         ports:
         - containerPort: 3000
